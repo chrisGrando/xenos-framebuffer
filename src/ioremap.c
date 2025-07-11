@@ -32,7 +32,7 @@ void * ioremap(unsigned long physaddr, unsigned size, int sync)
 
 	/* memory map */
 	reg_mem = mmap(
-		(caddr_t)reg_mem,
+		(void*)reg_mem,
 		size+ofs_addr,
 		PROT_READ|PROT_WRITE,
 		MAP_SHARED,
