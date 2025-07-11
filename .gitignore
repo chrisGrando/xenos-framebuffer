@@ -90,3 +90,14 @@ dkms.conf
 .nfs*
 
 # End of https://www.toptal.com/developers/gitignore/api/c,c++,linux
+
+### Makefile ###
+Makefile
+config.log
+config.status
+libtool
+man/Makefile
+src/.deps/
+src/Makefile
+stamp-h1
+config.h
